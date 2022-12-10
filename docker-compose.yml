@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres
+    restart: unless-stopped
+    volumes:
+      - ./database/init.sql:/docker-entrypoint-initdb.d/1-init.sql
+    environment:
+      - POSTGRES_USER=${DATABASE_USER}
+      - POSTGRES_PASSWORD=${DATABASE_PASSWORD}
+      - POSTGRES_DB=${DATABASE_NAME}
+    ports:
+      - ${DATABASE_PORT}:${DATABASE_PORT}
+    networks:
+      - project
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DATABASE_USER}" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+
+networks:
+  project:
+    driver: bridge
