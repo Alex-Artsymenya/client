@@ -207,7 +207,7 @@ public class AddAppointmentController implements Initializable {
                 stage.setScene(newScene);
             } else {
                 if (UserAccountController.theme == 1) {
-                    anchorPane.setStyle("-fx-background-image: url(images/lighttipa.jpg)");
+                    anchorPane.setStyle("-fx-background-image: url(images/third.jpg)");
                     btnLogOut.setStyle(blackbutton);
                     btnBack.setStyle(blackbutton);
                     btnSave.setStyle(blackbutton);

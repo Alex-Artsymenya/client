@@ -13,7 +13,7 @@
     <children>
         <ImageView fitHeight="499.0" fitWidth="700.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
             <image>
-                <Image url="@../images/regist.jpg"/>
+                <Image url="@../images/fourth.jpg"/>
             </image>
         </ImageView>
         <PasswordField fx:id="passwordfieldPassword" layoutX="464.0" layoutY="115.0"/>

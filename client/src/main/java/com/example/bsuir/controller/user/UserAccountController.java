@@ -90,7 +90,7 @@ public class UserAccountController implements Initializable {
 
     public void Change_Theme_Pressed() {
         if(theme == 1){
-            anchorPane.setStyle("-fx-background-image: url(images/startpage.jpg)");
+            anchorPane.setStyle("-fx-background-image: url(images/fifth.jpg)");
             btnExit.setStyle(whitebutton);
             btnManageAccount.setStyle(whitebutton);
             btnEmployee.setStyle(whitebutton);
@@ -105,7 +105,7 @@ public class UserAccountController implements Initializable {
             theme = 0;
         }
         else{
-            anchorPane.setStyle("-fx-background-image: url(images/newbackg.jpg)");
+            anchorPane.setStyle("-fx-background-image: url(images/sixth.jpg)");
             btnExit.setStyle(blackbutton);
             btnManageAccount.setStyle(blackbutton);
             btnEmployee.setStyle(blackbutton);
@@ -124,7 +124,7 @@ public class UserAccountController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (theme == 1) {
-            anchorPane.setStyle("-fx-background-image: url(images/newbackg.jpg)");
+            anchorPane.setStyle("-fx-background-image: url(images/sixth.jpg)");
             btnExit.setStyle(blackbutton);
             btnManageAccount.setStyle(blackbutton);
             btnEmployee.setStyle(blackbutton);

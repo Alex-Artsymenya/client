@@ -59,7 +59,7 @@ public class EmployeeController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (UserAccountController.theme == 1) {
-            employee.setStyle("-fx-background-image: url(images/lighttipa.jpg)");
+            employee.setStyle("-fx-background-image: url(images/third.jpg)");
             btnLogOut.setStyle(blackbutton);
             btnBack.setStyle(blackbutton);
         }

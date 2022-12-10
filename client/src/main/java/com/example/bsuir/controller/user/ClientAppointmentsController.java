@@ -116,7 +116,7 @@ public class ClientAppointmentsController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         if (UserAccountController.theme == 1) {
-            anchorPane.setStyle("-fx-background-image: url(images/newbackg.jpg)");
+            anchorPane.setStyle("-fx-background-image: url(images/sixth.jpg)");
             btnAdd.setStyle(blackbutton);
             btnEdit.setStyle(blackbutton);
             btnDelete.setStyle(blackbutton);
