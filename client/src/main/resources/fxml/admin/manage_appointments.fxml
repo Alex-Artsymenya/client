@@ -16,10 +16,10 @@
             <columns>
                 <TableColumn fx:id="id" prefWidth="40.0" text="ID"/>
                 <TableColumn fx:id="date" minWidth="100.0" prefWidth="120.0" text="Дата"/>
-                <TableColumn fx:id="start" minWidth="100.0" prefWidth="120.0" text="Вылет"/>
-                <TableColumn fx:id="end" prefWidth="120.0" text="Сколько лететь"/>
+                <TableColumn fx:id="start" minWidth="100.0" prefWidth="120.0" text="Прибытие"/>
+                <TableColumn fx:id="end" prefWidth="120.0" text="Выезд"/>
                 <TableColumn fx:id="service" prefWidth="120.0" text="Рейс"/>
-                <TableColumn fx:id="client" prefWidth="120.0" text="Турист"/>
+                <TableColumn fx:id="client" prefWidth="120.0" text="Клиент"/>
             </columns>
         </TableView>
         <Button fx:id="btnLogOut" layoutX="543.0" layoutY="2.0" mnemonicParsing="false" onAction="#onLogOut"
@@ -47,7 +47,7 @@
         <Button fx:id="btnStatistic" layoutX="206.0" layoutY="361.0" mnemonicParsing="false" onAction="#onStatistic"
                 styleClass="glass" stylesheets="@../../css/stylesheet.css" text="Статистика"/>
         <Button fx:id="btnCheck" layoutX="305.0" layoutY="361.0" mnemonicParsing="false" onAction="#onCheck"
-                styleClass="glass" stylesheets="@../../css/stylesheet.css" text="Сформировать отчет на рейс"/>
+                styleClass="glass" stylesheets="@../../css/stylesheet.css" text="Сформировать отчет"/>
     </children>
 
 </AnchorPane>

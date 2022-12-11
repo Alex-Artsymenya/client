@@ -21,7 +21,7 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES"/>
         </rowConstraints>
         <Button fx:id="manageUsersButton" mnemonicParsing="false" onAction="#manageUsersButtonPressed"
-                styleClass="glass-grey" stylesheets="@../../css/buttons.css" text="Туристы">
+                styleClass="glass-grey" stylesheets="@../../css/buttons.css" text="Клиенты">
             <GridPane.margin>
                 <Insets left="15.0" top="10.0"/>
             </GridPane.margin>
@@ -46,7 +46,7 @@
             </GridPane.margin>
         </Button>
         <Button fx:id="manageAppointmentsButton" mnemonicParsing="false" onAction="#manageAppointmentsButtonPressed"
-                styleClass="glass-grey" stylesheets="@../../css/buttons.css" text="Полеты" textFill="BLACK"
+                styleClass="glass-grey" stylesheets="@../../css/buttons.css" text="Маршруты" textFill="BLACK"
                 GridPane.rowIndex="2">
             <GridPane.margin>
                 <Insets left="15.0" top="30.0"/>

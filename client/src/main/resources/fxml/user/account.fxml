@@ -39,7 +39,7 @@
         </Button>
         <Button fx:id="btnInformation" layoutX="3.0" layoutY="80.0" mnemonicParsing="false"
                 onAction="#Get_Information_Pressed" prefHeight="33.0" prefWidth="175.0" styleClass="redline"
-                stylesheets="@../../css/stylesheet.css" text="Полеты">
+                stylesheets="@../../css/stylesheet.css" text="Маршруты">
             <font>
                 <Font size="18.0"/>
             </font>

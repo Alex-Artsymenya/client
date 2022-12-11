@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         ClientSocket.getInstance().getSocket();
         Parent root = FXMLLoader.load(getClass().getResource("/fxml/login.fxml"));
-        primaryStage.setTitle("airport");
+        primaryStage.setTitle("coursework");
         primaryStage.setScene(new Scene(root, 700, 470));
         primaryStage.show();
     }

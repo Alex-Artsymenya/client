@@ -262,7 +262,7 @@ public class ManageAppointmentsController implements Initializable {
             i++;
             String number = "Счет номер: ";
             String client = "Клиент: ";
-            String service = "Услуга: ";
+            String service = "Рейс: ";
             String dat = "Дата оказания: ";
             writer.append("***************************************************");
             writer.append('\n');
@@ -272,7 +272,7 @@ public class ManageAppointmentsController implements Initializable {
             writer.append('\n');
             writer.write(service + appointmentModel.getService());
             writer.append('\n');
-            writer.write(dat + appointmentModel.getClient());
+            writer.write(dat + appointmentModel.getDate());
             writer.append('\n');
             writer.append('\n');
             writer.append('\n');

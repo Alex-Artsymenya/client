@@ -48,7 +48,7 @@
                 <Font name="System Bold Italic" size="13.0"/>
             </font>
         </Label>
-        <Label fx:id="text4" layoutX="28.0" layoutY="240.0" text="Выберите сопровождающего" textFill="WHITE">
+        <Label fx:id="text4" layoutX="28.0" layoutY="240.0" text="Выберите персоналы" textFill="WHITE">
             <font>
                 <Font name="System Bold Italic" size="13.0"/>
             </font>
@@ -63,7 +63,7 @@
                 <Font name="System Bold Italic" size="13.0"/>
             </font>
         </Label>
-        <Label fx:id="text5" layoutX="381.0" layoutY="240.0" text="Закрепите за туристом сотрудника" textFill="WHITE">
+        <Label fx:id="text5" layoutX="381.0" layoutY="240.0" text="Выберите свое ФИО" textFill="WHITE">
             <font>
                 <Font name="System Bold Italic" size="13.0"/>
             </font>

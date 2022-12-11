@@ -16,7 +16,7 @@
                 <TableColumn fx:id="start" minWidth="100.0" prefWidth="120.0" text="Начало"/>
                 <TableColumn fx:id="end" prefWidth="120.0" text="Конец"/>
                 <TableColumn fx:id="service" prefWidth="120.0" text="Рейс"/>
-                <TableColumn fx:id="client" prefWidth="120.0" text="Турист"/>
+                <TableColumn fx:id="client" prefWidth="120.0" text="Клиент"/>
             </columns>
         </TableView>
         <Button fx:id="btnLogOut" layoutX="501.0" mnemonicParsing="false" onAction="#onLogOut" styleClass="redline"
