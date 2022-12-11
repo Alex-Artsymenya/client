@@ -159,7 +159,7 @@ public class AddAppointmentController implements Initializable {
             Response response = new Gson().fromJson(ClientSocket.getInstance().getInStream().readLine(),
                                                     Response.class);
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setContentText(response.getResponseMessage());
+            alert.setContentText(response.getResponseMessage());    
             alert.showAndWait();
             Thread.sleep(1500);
             Stage stage = (Stage) btnSave.getScene().getWindow();
